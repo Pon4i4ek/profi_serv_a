@@ -26,9 +26,9 @@ print(print_random_str(40))
 print(print_random_str(40))
 
 print("Service package 1: ver. {}".format(version))
-time.sleep(0.5)
+time.sleep(0.6)
 print("Service package 1: start configuration ")
-time.sleep(0.5)
+time.sleep(0.6)
 
 for i in tqdm.tqdm(range(3000), ascii=True, desc="System check"):
     time.sleep(0.001)
